@@ -1,0 +1,841 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-10-03 14:20+0200\n"
+"PO-Revision-Date: 2016-10-03 14:20+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: public/Responsive-2.0.0\n"
+"X-Poedit-SearchPathExcluded-1: admin/css\n"
+"X-Poedit-SearchPathExcluded-2: public/css\n"
+"X-Poedit-SearchPathExcluded-3: admin/js\n"
+"X-Poedit-SearchPathExcluded-4: public/js\n"
+"X-Poedit-SearchPathExcluded-5: public/flowplayer-6.0.5\n"
+
+#: includes/class-meeting-support-shortcodes.php:29
+#: includes/class-meeting-support-shortcodes.php:186
+msgid "Sign in with RIPE NCC Access"
+msgstr "Войти при помощи RIPE NCC Access"
+
+#: includes/class-meeting-support-shortcodes.php:31
+#: includes/class-meeting-support-shortcodes.php:92
+#: includes/class-meeting-support-shortcodes.php:188
+#: public/class-meeting-support-public.php:323
+msgid "Sign in"
+msgstr "Войти"
+
+#: includes/class-meeting-support-shortcodes.php:49
+msgid "Sign out"
+msgstr "Выйти"
+
+#: includes/class-meeting-support-shortcodes.php:87
+#: includes/class-meeting-support-shortcodes.php:145
+#: includes/class-meeting-support-shortcodes.php:147
+#: includes/class-meeting-support-shortcodes.php:149
+#: includes/class-meeting-support-shortcodes.php:206
+#: includes/class-meeting-support-shortcodes.php:984
+#: includes/class-meeting-support-shortcodes.php:1620
+#: includes/class-meeting-support-shortcodes.php:1712
+#: includes/class-meeting-support-shortcodes.php:1869
+#: public/class-meeting-support-public.php:880
+msgid "Email Address"
+msgstr "Эл. адрес"
+
+#: includes/class-meeting-support-shortcodes.php:90
+msgid "Password"
+msgstr "Пароль"
+
+#: includes/class-meeting-support-shortcodes.php:97
+msgid "Create account"
+msgstr "Регистрация"
+
+#: includes/class-meeting-support-shortcodes.php:98
+msgid "Forgot your password?"
+msgstr "Забыли пароль?"
+
+#: includes/class-meeting-support-shortcodes.php:105
+msgid "You are already logged in"
+msgstr "Вы уже авторизованы в системе"
+
+#: includes/class-meeting-support-shortcodes.php:106
+msgid "Go to Homepage"
+msgstr "Перейти на главную страницу"
+
+#: includes/class-meeting-support-shortcodes.php:113
+msgid "You are already registered"
+msgstr "Вы уже зарегистрированы"
+
+#: includes/class-meeting-support-shortcodes.php:113
+msgid "View Profile"
+msgstr "Просмотр профиля"
+
+#: includes/class-meeting-support-shortcodes.php:137
+#: includes/class-meeting-support-shortcodes.php:1619
+#: includes/class-meeting-support-shortcodes.php:1695
+#: public/class-meeting-support-public.php:804
+#: public/class-meeting-support-public.php:879
+msgid "Name"
+msgstr "Имя"
+
+#: includes/class-meeting-support-shortcodes.php:139
+#: includes/class-meeting-support-shortcodes.php:141
+#: includes/class-meeting-support-shortcodes.php:202
+msgid "Full Name"
+msgstr "Имя и фамилия"
+
+#: includes/class-meeting-support-shortcodes.php:154
+#: includes/class-meeting-support-shortcodes.php:1044
+#: includes/class-meeting-support-shortcodes.php:1047
+#: includes/class-meeting-support-shortcodes.php:1761
+#: includes/class-meeting-support-shortcodes.php:1764
+#: includes/class-meeting-support-shortcodes.php:2052
+#: includes/class-meeting-support-shortcodes.php:2055
+msgid "Verification Text"
+msgstr "Контрольный текст"
+
+#: includes/class-meeting-support-shortcodes.php:156
+msgid "Register"
+msgstr "Зарегистрироваться"
+
+#: includes/class-meeting-support-shortcodes.php:209
+msgid "Update Profile"
+msgstr "Обновить профиль"
+
+#: includes/class-meeting-support-shortcodes.php:212
+#: includes/class-meeting-support-shortcodes.php:225
+msgid "Change Password"
+msgstr "Изменить пароль"
+
+#: includes/class-meeting-support-shortcodes.php:214
+msgid "Current Password"
+msgstr "Текущий пароль"
+
+#: includes/class-meeting-support-shortcodes.php:218
+msgid "New Password"
+msgstr "Новый пароль"
+
+#: includes/class-meeting-support-shortcodes.php:222
+msgid "New Password Confirmation"
+msgstr "Подтверждение нового пароля"
+
+#: includes/class-meeting-support-shortcodes.php:319
+msgid "Stream URL:"
+msgstr "поток URL"
+
+#: includes/class-meeting-support-shortcodes.php:335
+msgid "Your browser does not support iframes."
+msgstr "Ваш браузер не поддерживается"
+
+#: includes/class-meeting-support-shortcodes.php:338
+msgid "IRC Details:"
+msgstr "подробности IRC"
+
+#: includes/class-meeting-support-shortcodes.php:338
+msgid "IRC Server:"
+msgstr "IRC-сервер"
+
+#: includes/class-meeting-support-shortcodes.php:338
+msgid "Channel:"
+msgstr "канал"
+
+#: includes/class-meeting-support-shortcodes.php:398
+#: includes/class-meeting-support-shortcodes.php:1856
+msgid "Presenter Name"
+msgstr "Имя докладчика"
+
+#: includes/class-meeting-support-shortcodes.php:399
+#: includes/class-meeting-support-shortcodes.php:2107
+msgid "Session"
+msgstr "Заседание"
+
+#: includes/class-meeting-support-shortcodes.php:400
+#: includes/class-meeting-support-shortcodes.php:1997
+msgid "Presentation Title"
+msgstr "Название презентации"
+
+#: includes/class-meeting-support-shortcodes.php:401
+msgid "File(s)"
+msgstr "файлы"
+
+#: includes/class-meeting-support-shortcodes.php:402
+msgid "Date Added"
+msgstr "Дата Добавлена"
+
+#: includes/class-meeting-support-shortcodes.php:556
+msgid "onwards"
+msgstr "далее"
+
+#: includes/class-meeting-support-shortcodes.php:785
+msgid "First Name"
+msgstr "Имя"
+
+#: includes/class-meeting-support-shortcodes.php:786
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: includes/class-meeting-support-shortcodes.php:787
+msgid "Organisation"
+msgstr "Организация"
+
+#: includes/class-meeting-support-shortcodes.php:788
+msgid "Country"
+msgstr "Страна"
+
+#: includes/class-meeting-support-shortcodes.php:789
+#: includes/class-meeting-support-shortcodes.php:1299
+#: includes/class-meeting-support-shortcodes.php:1553
+#: includes/class-meeting-support-shortcodes.php:1622
+#: public/class-meeting-support-public.php:882
+msgid "Status"
+msgstr "Положение"
+
+#: includes/class-meeting-support-shortcodes.php:790
+msgid "ASN"
+msgstr "ASN"
+
+#: includes/class-meeting-support-shortcodes.php:836
+msgid "View on RIPEstat"
+msgstr "Просмотр на RIPEstat"
+
+#: includes/class-meeting-support-shortcodes.php:887
+msgid "You must be logged in to edit an existing submission"
+msgstr "Для редакции имеющегося доклада необходимо войти"
+
+#: includes/class-meeting-support-shortcodes.php:893
+#: public/class-meeting-support-public.php:934
+msgid "Submission not found"
+msgstr "Доклад не найден"
+
+#: includes/class-meeting-support-shortcodes.php:897
+msgid "You do not have permission to edit this submission"
+msgstr "У вас нет прав на редактирование этого доклада"
+
+#: includes/class-meeting-support-shortcodes.php:906
+msgid "Are you sure you want to delete this submission?"
+msgstr "Удалить этот доклад?"
+
+#: includes/class-meeting-support-shortcodes.php:912
+#: includes/class-meeting-support-shortcodes.php:1375
+#: includes/class-meeting-support-shortcodes.php:1444
+#: includes/class-meeting-support-shortcodes.php:1837
+#: includes/globals.inc.php:1373
+msgid "Delete"
+msgstr "Удалить"
+
+#: includes/class-meeting-support-shortcodes.php:913
+msgid "Cancel"
+msgstr "Отменить"
+
+#: includes/class-meeting-support-shortcodes.php:942
+#: includes/class-meeting-support-shortcodes.php:1303
+msgid "Submission Type"
+msgstr "Тип доклада"
+
+#: includes/class-meeting-support-shortcodes.php:959
+#: includes/class-meeting-support-shortcodes.php:1291
+msgid "Author Name"
+msgstr "Автор"
+
+#: includes/class-meeting-support-shortcodes.php:972
+#: includes/class-meeting-support-shortcodes.php:1295
+#: includes/class-meeting-support-shortcodes.php:1882
+msgid "Affiliation"
+msgstr "Принадлежность"
+
+#: includes/class-meeting-support-shortcodes.php:996
+#: includes/class-meeting-support-shortcodes.php:1542
+#: includes/class-meeting-support-shortcodes.php:1548
+#: includes/class-meeting-support-shortcodes.php:1621
+#: public/class-meeting-support-public.php:881
+msgid "Submission Title"
+msgstr "Название доклада"
+
+#: includes/class-meeting-support-shortcodes.php:1008
+#: includes/class-meeting-support-shortcodes.php:1332
+msgid "Submission Abstract"
+msgstr "Тезисы доклада"
+
+#: includes/class-meeting-support-shortcodes.php:1019
+#: includes/class-meeting-support-shortcodes.php:1348
+msgid "Author Comments"
+msgstr "Комментарии автора"
+
+#: includes/class-meeting-support-shortcodes.php:1030
+#: includes/class-meeting-support-shortcodes.php:1354
+msgid "Submission URL"
+msgstr "URL доклада"
+
+#: includes/class-meeting-support-shortcodes.php:1056
+#: includes/class-meeting-support-shortcodes.php:1363
+msgid "Submission File"
+msgstr "Файл доклада"
+
+#: includes/class-meeting-support-shortcodes.php:1060
+msgid "A file is currently uploaded. Leave empty to keep original file"
+msgstr "Файл загружен. Чтобы сохранить исходный файл, пропустите этот шаг"
+
+#: includes/class-meeting-support-shortcodes.php:1067
+#: includes/class-meeting-support-shortcodes.php:2066
+msgid "Maximum file size:"
+msgstr "Макс. размер файла:"
+
+#: includes/class-meeting-support-shortcodes.php:1068
+#: includes/class-meeting-support-shortcodes.php:2067
+msgid "Accepted file types:"
+msgstr "Допустимые типы файлов:"
+
+#: includes/class-meeting-support-shortcodes.php:1070
+msgid ""
+"Important note: BoFs and Workshops will not receive scribing, webcast or "
+"stenography support."
+msgstr ""
+"Важное примечание: во время BoF-ceссий и семинаров протоколирование, "
+"стенографирование и веб-трансляция проводиться не будут"
+
+#: includes/class-meeting-support-shortcodes.php:1071
+#: includes/class-meeting-support-shortcodes.php:1773
+#: includes/class-meeting-support-shortcodes.php:2070
+msgid "= required field"
+msgstr "= обязательное поле"
+
+#: includes/class-meeting-support-shortcodes.php:1074
+#: includes/class-meeting-support-shortcodes.php:1661
+#: includes/class-meeting-support-shortcodes.php:1776
+#: includes/class-meeting-support-shortcodes.php:2062
+msgid "Submit"
+msgstr "Отправить"
+
+#: includes/class-meeting-support-shortcodes.php:1307
+#: includes/class-meeting-support-shortcodes.php:1540
+#: includes/class-meeting-support-shortcodes.php:1546
+msgid "Submission Date"
+msgstr "Дата доклада"
+
+#: includes/class-meeting-support-shortcodes.php:1313
+msgid "Ratings"
+msgstr "Оценки"
+
+#: includes/class-meeting-support-shortcodes.php:1320
+msgid "Content"
+msgstr "Содержание"
+
+#: includes/class-meeting-support-shortcodes.php:1321
+#: includes/class-meeting-support-shortcodes.php:1325
+msgid "Total"
+msgstr "Всего"
+
+#: includes/class-meeting-support-shortcodes.php:1322
+#: includes/class-meeting-support-shortcodes.php:1325
+#: includes/class-meeting-support-shortcodes.php:1326
+msgid "Average"
+msgstr "Среднее"
+
+#: includes/class-meeting-support-shortcodes.php:1325
+msgid "Presenter"
+msgstr "Докладчик"
+
+#: includes/class-meeting-support-shortcodes.php:1338
+#: includes/class-meeting-support-shortcodes.php:1342
+msgid "Final Decision"
+msgstr "Окончательное решение"
+
+#: includes/class-meeting-support-shortcodes.php:1397
+msgid "Ratings for Submission #"
+msgstr "Оценки доклада №"
+
+#: includes/class-meeting-support-shortcodes.php:1405
+#: includes/globals.inc.php:1334
+msgid "Rating Content"
+msgstr "Оценка содержания"
+
+#: includes/class-meeting-support-shortcodes.php:1408
+#: includes/class-meeting-support-shortcodes.php:1423
+#: includes/globals.inc.php:1337 includes/globals.inc.php:1352
+msgid "High"
+msgstr "Высокая"
+
+#: includes/class-meeting-support-shortcodes.php:1414
+#: includes/class-meeting-support-shortcodes.php:1429
+#: includes/globals.inc.php:1343 includes/globals.inc.php:1358
+msgid "Low"
+msgstr "Низкая"
+
+#: includes/class-meeting-support-shortcodes.php:1415
+#: includes/class-meeting-support-shortcodes.php:1430
+#: includes/globals.inc.php:1344 includes/globals.inc.php:1359
+#: public/class-meeting-support-public.php:818
+#: public/class-meeting-support-public.php:819
+msgid "None"
+msgstr "Нет"
+
+#: includes/class-meeting-support-shortcodes.php:1420
+#: includes/globals.inc.php:1349
+msgid "Rating Presenter"
+msgstr "Оценка докладчика"
+
+#: includes/class-meeting-support-shortcodes.php:1437
+#: includes/globals.inc.php:1366
+msgid "Comments"
+msgstr "Комментарии"
+
+#: includes/class-meeting-support-shortcodes.php:1445
+#: includes/globals.inc.php:1284 includes/globals.inc.php:1288
+#: includes/globals.inc.php:1374
+msgid "Rate"
+msgstr "Оценить"
+
+#: includes/class-meeting-support-shortcodes.php:1451
+msgid "Current Ratings"
+msgstr "Текущие оценки"
+
+#: includes/class-meeting-support-shortcodes.php:1467
+msgid "Final Decision for Submission #"
+msgstr "Окончательное решение относительно доклада №"
+
+#: includes/class-meeting-support-shortcodes.php:1474
+msgid "Submission Status"
+msgstr "Состояние доклада"
+
+#: includes/class-meeting-support-shortcodes.php:1486
+msgid "Final Decision Comments"
+msgstr "Комментарии к окончательному решению"
+
+#: includes/class-meeting-support-shortcodes.php:1493
+msgid "Update"
+msgstr "Обновить"
+
+#: includes/class-meeting-support-shortcodes.php:1529
+msgid "Filter Results"
+msgstr "Фильтровать результаты"
+
+#: includes/class-meeting-support-shortcodes.php:1533
+msgid "Sort By:"
+msgstr "Сортировать по:"
+
+#: includes/class-meeting-support-shortcodes.php:1538
+#: includes/class-meeting-support-shortcodes.php:1544
+msgid "Average Ratings (Content)"
+msgstr "Средняя оценка (содержание)"
+
+#: includes/class-meeting-support-shortcodes.php:1539
+#: includes/class-meeting-support-shortcodes.php:1545
+msgid "Average Ratings (Presenter)"
+msgstr "Средняя оценка (докладчик)"
+
+#: includes/class-meeting-support-shortcodes.php:1541
+#: includes/class-meeting-support-shortcodes.php:1547
+msgid "Author"
+msgstr "Автор"
+
+#: includes/class-meeting-support-shortcodes.php:1566
+msgid "My"
+msgstr "Мои"
+
+#: includes/class-meeting-support-shortcodes.php:1571
+#: includes/class-meeting-support-shortcodes.php:1574
+msgid "Rated Submissions"
+msgstr "Оцененные доклады"
+
+#: includes/class-meeting-support-shortcodes.php:1572
+#: includes/class-meeting-support-shortcodes.php:1575
+msgid "Unrated Submissions"
+msgstr "Неоцененные доклады"
+
+#: includes/class-meeting-support-shortcodes.php:1580
+msgid "Order"
+msgstr "Упорядочить"
+
+#: includes/class-meeting-support-shortcodes.php:1581
+msgid "Ascending"
+msgstr "По возрастанию"
+
+#: includes/class-meeting-support-shortcodes.php:1582
+msgid "Descending"
+msgstr "По убыванию"
+
+#: includes/class-meeting-support-shortcodes.php:1584
+msgid "Filter"
+msgstr "Фильтровать"
+
+#: includes/class-meeting-support-shortcodes.php:1608
+msgid "PC Mass Email Tool"
+msgstr "Средство рассылки почты"
+
+#: includes/class-meeting-support-shortcodes.php:1611
+msgid "The mail will go to the following recipients"
+msgstr "Сообщение будет отправлено следующим получателям"
+
+#: includes/class-meeting-support-shortcodes.php:1618
+#: public/class-meeting-support-public.php:878
+msgid "ID"
+msgstr "ID"
+
+#: includes/class-meeting-support-shortcodes.php:1629
+msgid "Email(s) successfully sent"
+msgstr "Сообщение (-я) отправлено (-ы)"
+
+#: includes/class-meeting-support-shortcodes.php:1635
+msgid "Blank Template"
+msgstr "Пустой шаблон"
+
+#: includes/class-meeting-support-shortcodes.php:1638
+msgid "Acceptance Template"
+msgstr "Шаблон «Принято»"
+
+#: includes/class-meeting-support-shortcodes.php:1641
+msgid "Rejection Template"
+msgstr "Шаблон «Отклонено»"
+
+#: includes/class-meeting-support-shortcodes.php:1650
+#: includes/class-meeting-support-shortcodes.php:1730
+msgid "Subject"
+msgstr "Тема"
+
+#: includes/class-meeting-support-shortcodes.php:1656
+msgid "Body"
+msgstr "Текст"
+
+#: includes/class-meeting-support-shortcodes.php:1671
+msgid "Email Author(s)"
+msgstr "Отправитель (-и) сообщения"
+
+#: includes/class-meeting-support-shortcodes.php:1673
+msgid "Select all submissions"
+msgstr "Выбрать все доклады"
+
+#: includes/class-meeting-support-shortcodes.php:1674
+msgid "Deselect all submissions"
+msgstr "Отменить выбор всех докладов"
+
+#: includes/class-meeting-support-shortcodes.php:1678
+msgid "Send Email"
+msgstr "Отправить сообщение"
+
+#: includes/class-meeting-support-shortcodes.php:1740
+msgid "Message"
+msgstr "Сообщение"
+
+#: includes/class-meeting-support-shortcodes.php:1806
+#: public/class-meeting-support-public.php:1262
+msgid "You do not have permission to edit this presentation"
+msgstr "У вас нет прав на редактирование этой презентации"
+
+#: includes/class-meeting-support-shortcodes.php:1809
+msgid "Editing presentation:"
+msgstr "Редактирование презентации:"
+
+#: includes/class-meeting-support-shortcodes.php:1815
+msgid "You must be logged in to edit presentations"
+msgstr "Для редактирования презентаций необходимо войти"
+
+#: includes/class-meeting-support-shortcodes.php:1824
+#: public/class-meeting-support-public.php:1218
+msgid "You do not have permission to delete this presentation"
+msgstr "У вас нет прав на удаление этой презентации"
+
+#: includes/class-meeting-support-shortcodes.php:1829
+msgid "Are you sure you want to delete this presentation?"
+msgstr "Действительно удалить эту презентацию?"
+
+#: includes/class-meeting-support-shortcodes.php:1892
+msgid "Presentation Session"
+msgstr "Заседание презентации"
+
+#: includes/class-meeting-support-shortcodes.php:1899
+#: includes/class-meeting-support-shortcodes.php:1939
+msgid "Please select"
+msgstr "Выберите"
+
+#: includes/class-meeting-support-shortcodes.php:1925
+#: includes/class-meeting-support-shortcodes.php:1988
+#: includes/class-meeting-support-shortcodes.php:1990
+msgid "Other"
+msgstr "Прочее"
+
+#: includes/class-meeting-support-shortcodes.php:1932
+msgid "Presentation Slot"
+msgstr "Время презентации"
+
+#: includes/class-meeting-support-shortcodes.php:2010
+#: includes/class-meeting-support-shortcodes.php:2027
+msgid "Presentation File(s)"
+msgstr "Файл (-ы) презентации"
+
+#: includes/class-meeting-support-shortcodes.php:2020
+msgid "Add new file..."
+msgstr "Добавить файл…"
+
+#: includes/class-meeting-support-shortcodes.php:2030
+msgid ""
+"Please select the file you want to replace. <br />If you want to keep the "
+"original file(s), do not attach a file"
+msgstr ""
+"Выберите файл для замены. <br/>Для сохранения первоначального (-ых) файла (-"
+"ов) не вкладывайте новый файл"
+
+#: includes/class-meeting-support-shortcodes.php:2089
+msgid "Please log in to see your presentations"
+msgstr "Войдите для просмотра своих презентаций"
+
+#: includes/class-meeting-support-shortcodes.php:2098
+msgid "You haven't uploaded any presentations"
+msgstr "Вы не сохраняли презентации"
+
+#: includes/class-meeting-support-shortcodes.php:2106
+msgid "Title"
+msgstr "Название"
+
+#: includes/class-meeting-support-shortcodes.php:2118
+msgid "Edit presentation"
+msgstr "Редактировать презентацию"
+
+#: includes/class-meeting-support-shortcodes.php:2124
+msgid "Delete presentation"
+msgstr "Удалить презентацию"
+
+#: public/class-meeting-support-public.php:174
+msgid "Email or password missing"
+msgstr "Не указан эл. адрес или пароль"
+
+#: public/class-meeting-support-public.php:204
+msgid "Account not active"
+msgstr "Уч. запись не активна"
+
+#: public/class-meeting-support-public.php:209
+msgid "Invalid login credentials"
+msgstr "Неправильные учетные данные для входа"
+
+#: public/class-meeting-support-public.php:226
+msgid ""
+"You need to be logged in to rate presentations. Click OK to continue to the "
+"login page."
+msgstr ""
+
+#: public/class-meeting-support-public.php:315
+#: public/class-meeting-support-public.php:536
+#: public/class-meeting-support-public.php:987
+msgid "Missing required fields"
+msgstr "Не заполнены обязательные поля"
+
+#: public/class-meeting-support-public.php:323
+msgid "This user already exists"
+msgstr "Такой пользователь уже есть"
+
+#: public/class-meeting-support-public.php:331
+#: public/class-meeting-support-public.php:546
+#: public/class-meeting-support-public.php:979
+#: public/class-meeting-support-public.php:1246
+msgid "Incorrect Verification Text"
+msgstr "Неправильный контрольный текст"
+
+#: public/class-meeting-support-public.php:337
+msgid ""
+"User successfully registered; please check your email for login credentials"
+msgstr ""
+"Пользователь зарегистрирован. Учетные данные для входа направлены по эл. "
+"почте"
+
+#: public/class-meeting-support-public.php:573
+msgid "Contact form successfully submitted"
+msgstr "Контактная форма отправлена"
+
+#: public/class-meeting-support-public.php:599
+msgid "Name or Email missing"
+msgstr "Отсутствует имя или эл. адрес"
+
+#: public/class-meeting-support-public.php:606
+msgid "Invalid Email Address"
+msgstr "Неверный эл. адрес"
+
+#: public/class-meeting-support-public.php:620
+msgid "Profile Updated"
+msgstr "Профиль обновлен"
+
+#: public/class-meeting-support-public.php:630
+msgid "Missing fields for password change"
+msgstr "Не заполнены поля для изменения пароля"
+
+#: public/class-meeting-support-public.php:636
+msgid "New Password and New Password Confirmation do not match"
+msgstr "Новые пароли не совпадают"
+
+#: public/class-meeting-support-public.php:642
+msgid "You cannot change your password to your current password"
+msgstr "Невозможно изменить пароль на текущий"
+
+#: public/class-meeting-support-public.php:649
+#, php-format
+msgid "Your new password must be at least %d characters long"
+msgstr "Новый пароль должен быть длиной мин. %d знаков"
+
+#: public/class-meeting-support-public.php:655
+msgid "Your old password is incorrect"
+msgstr "Указан неверный старый пароль"
+
+#: public/class-meeting-support-public.php:670
+msgid "Password Updated"
+msgstr "Пароль обновлен"
+
+#: public/class-meeting-support-public.php:805
+msgid "Content Rating"
+msgstr "Оценка содержания"
+
+#: public/class-meeting-support-public.php:806
+msgid "Presenter Rating"
+msgstr "Оценка докладчика"
+
+#: public/class-meeting-support-public.php:830
+msgid "No ratings"
+msgstr "Без оценок"
+
+#: public/class-meeting-support-public.php:941
+msgid "You do not have permission to edit that session"
+msgstr "У вас нет прав на редактирование этого заседания"
+
+#: public/class-meeting-support-public.php:949
+msgid "You do not have permission to delete that session"
+msgstr "У вас нет прав на удаление этого заседания"
+
+#: public/class-meeting-support-public.php:956
+msgid "Submission deleted"
+msgstr "Доклад удален"
+
+#: public/class-meeting-support-public.php:996
+msgid "A file is required for this type of Submission"
+msgstr "Для этого типа доклада требуется файл"
+
+#: public/class-meeting-support-public.php:1004
+msgid "Filesize too large"
+msgstr "Слишком большой файл"
+
+#: public/class-meeting-support-public.php:1012
+msgid "Forbidden file extension"
+msgstr "Недопустимое расширение файла"
+
+#: public/class-meeting-support-public.php:1211
+msgid "This presentation does not exist"
+msgstr "Такой презентации нет"
+
+#: public/class-meeting-support-public.php:1227
+msgid "Presentation deleted"
+msgstr "Презентация удалена"
+
+#: public/class-meeting-support-public.php:1317
+msgid "A file with this name already exists"
+msgstr "Файл с таким именем уже есть"
+
+#: public/class-meeting-support-public.php:1366
+msgid "Presentation successfully edited"
+msgstr "Презентация отредактирована"
+
+#: public/class-meeting-support-public.php:1419
+#: public/class-meeting-support-public.php:1427
+msgid "Error uploading presentation"
+msgstr "Ошибка при отправке презентации"
+
+#: public/class-meeting-support-public.php:1467
+msgid "Presentation successfully uploaded"
+msgstr "Презентация отправлена"
+
+#: public/class-meeting-support-public.php:1659
+msgid "Invalid parameters"
+msgstr "Неверные параметры"
+
+#: public/class-meeting-support-public.php:1667
+msgid "No file sent"
+msgstr "Файл не отправлен"
+
+#: public/class-meeting-support-public.php:1670
+#: public/class-meeting-support-public.php:1677
+msgid "Exceeded filesize limit"
+msgstr "Превышено ограничение размера файла"
+
+#: public/class-meeting-support-public.php:1685
+msgid "File extension not allowed"
+msgstr "Такое расширение файла не допустимо"
+
+#~ msgid "Incorrect CAPTCHA"
+#~ msgstr "Неправильный контрольный текст"
+
+#~ msgid "CAPTCHA Text"
+#~ msgstr "Контрольный текст"
+
+#~ msgid ""
+#~ "You are not logged in, click OK to be redirected to the login/"
+#~ "registration page"
+#~ msgstr ""
+#~ "Вы не вошли в систему, нажмите кнопку ОК, чтобы быть перенаправлены на "
+#~ "страницу входа в"
+
+#~ msgid "Welcome"
+#~ msgstr "Добро пожаловать"
+
+#~ msgid "Host"
+#~ msgstr "Oрганизатор"
+
+#~ msgid "Hosts"
+#~ msgstr "Организаторы"
+
+#~ msgid "Platinum Sponsor"
+#~ msgstr "Платиновый спонсор"
+
+#~ msgid "Platinum Sponsors"
+#~ msgstr "Платиновые спонсоры"
+
+#~ msgid "Gold Sponsor"
+#~ msgstr "Золотой спонсоры"
+
+#~ msgid "Gold Sponsors"
+#~ msgstr "Золотые спонсоры"
+
+#~ msgid "Silver Sponsor"
+#~ msgstr "Серебряный спонсор"
+
+#~ msgid "Silver Sponsors"
+#~ msgstr "Серебряные спонсоры"
+
+#~ msgid "Bronze Sponsor"
+#~ msgstr "Бронзовый спонсор"
+
+#~ msgid "Bronze Sponsors"
+#~ msgstr "Бронзовые спонсоры"
+
+#~ msgid "Supporting Sponsor"
+#~ msgstr "Поддержка Спонсор"
+
+#~ msgid "Supporting Sponsors"
+#~ msgstr "Поддерживающие спонсоры"
+
+#~ msgid "Coffee Break Sponsor"
+#~ msgstr "Перерыв на кофе Спонсор"
+
+#~ msgid "Coffee Break Sponsors"
+#~ msgstr "Перерыв на кофе Спонсоры"
+
+#~ msgid "Connectivity Sponsor"
+#~ msgstr "Спонсор соединения"
+
+#~ msgid "Connectivity Sponsors"
+#~ msgstr "Спонсоры подключения"
+
+#~ msgid "Webcast Sponsor"
+#~ msgstr "Спонсор онлайн-трансляции"
+
+#~ msgid "Webcast Sponsors"
+#~ msgstr "Спонсор онлайн-трансляции"
+
+#~ msgid "General Partner"
+#~ msgstr "Генеральный партнер"
+
+#~ msgid "General Partners"
+#~ msgstr "Генеральные партнеры"

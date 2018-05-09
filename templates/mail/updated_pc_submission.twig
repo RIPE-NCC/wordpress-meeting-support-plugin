@@ -1,0 +1,15 @@
+{% autoescape false %}
+An existing submission (#{{ submission_id }}) has been edited for the {{ meeting_name }} meeting
+=================================================
+Submission Type: {{ submission_type }}
+Edited on: {{ edited_timestamp }}
+
+Title: {{ submission_title }}
+Author: {{ author_name }}
+Email: {{ author_email }}
+
+Abstract:
+{{ submission_abstract }}
+Author Comments:
+{{ author_comments }}
+{% endautoescape %}

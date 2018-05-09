@@ -1,0 +1,13 @@
+{% autoescape false %}
+A new submission has been posted for the {{ meeting_name }} meeting
+=================================================
+Submission Type: {{ submission_type }}
+Submitted on: {{ current_time }}
+
+Title: {{ submission_title }}
+Author: {{ author_name }}
+Email: {{ author_email }}
+
+Abstract: {{ submission_abstract }}
+Author Comments: {{ author_comments }}
+{% endautoescape %}

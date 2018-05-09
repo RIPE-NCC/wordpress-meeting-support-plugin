@@ -1,0 +1,59 @@
+/*
+ * Flowplayer HTML5 quality selector plugin
+ *
+ * Copyright (c) 2016, Flowplayer Oy
+ *
+ * Released under the MIT License:
+ * http://www.opensource.org/licenses/mit-license.php
+ *
+ * revision: ca4919e
+ */
+.flowplayer .fp-quality-selector {
+  transition: 0.2s ease-in;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  right: 10px;
+  bottom: 40px;
+  width: 0px;
+  overflow: hidden;
+  font-weight: bold;
+}
+.flowplayer .fp-quality-selector li {
+  display: block;
+  list-style: none;
+  background-color: #333;
+  background-color: rgba(51,51,51,0.6);
+  margin: 2px;
+  padding: 4px;
+  border-radius: 2px;
+  font-size: 80%;
+  color: #fff;
+  text-shadow: 0px 0px 2px #000;
+  overflow: hidden;
+  text-align: center;
+}
+.flowplayer .fp-quality-selector li.active {
+  background-color: #00a7c8;
+  background-color: rgba(0,167,200,0.6);
+  cursor: default;
+}
+.flowplayer .fp-quality-selector li.active:hover {
+  background-color: #00a7c8;
+  background-color: rgba(0,167,200,0.6);
+}
+.flowplayer .fp-quality-selector li:hover {
+  background-color: #444;
+  background-color: rgba(51,51,51,0.8);
+}
+.flowplayer.is-mouseover .fp-quality-selector {
+  width: 5em;
+}
+.flowplayer.is-finished .fp-quality-selector,
+.flowplayer.is-disabled .fp-quality-selector {
+  width: 0px;
+}
+.flowplayer.fixed-controls .fp-quality-selector {
+  bottom: 10px;
+}
+

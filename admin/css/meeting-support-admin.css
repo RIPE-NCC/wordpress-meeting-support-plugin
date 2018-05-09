@@ -1,0 +1,238 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+input[name=mps_agora_event_key],
+input[name=mps_meeting_irecaptcha_key],
+input[name=mps_meeting_irecaptcha_secret_key],
+input[name=mps_meeting_logo_url],
+input[name=mps_presentations_dir],
+input[name=mps_presentations_url],
+input[name=mps_sender_email_name],
+input[name=mps_sender_email_address]
+{
+	width: 400px;
+}
+
+input[name=session_name],
+input[name=session_url],
+input[name=user_name],
+input[name=user_email],
+input[name=mps_allowed_file_types],
+input[name=mps_submission_types],
+textarea[name=mps_pc_submission_tags],
+textarea[name=mps_pc_message_sign_in],
+textarea[name=mps_pc_accepted_template],
+textarea[name=mps_pc_declined_template]
+{
+	width: 100%;
+}
+
+.toplevel_page_meeting-support .form-table pre {
+	font-family: inherit;
+    margin: inherit;
+}
+
+#agendaTable {
+	width: 100%;
+	table-layout: fixed;
+	font-size: 0.85em;
+	line-height: 1em;
+}
+
+#usersTable tbody,
+#agendaTable tbody {
+	text-align: center;
+}
+
+.fix.mps_meeting_increments_value {
+	margin-left: 5px;
+    vertical-align: super;
+}
+
+/** FF fix to make the input display properly **/
+.ws-datetime-local {
+	width: auto !important;
+}
+
+.ajax_loading {
+    display:    none;
+    position:   fixed;
+    z-index:    10000000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 )
+                url('https://i.stack.imgur.com/FhHRx.gif')
+                50% 50%
+                no-repeat;
+}
+
+input#delete-presentation,
+input#delete-video,
+input#delete-session {
+    float: left;
+    margin-top: 0px;
+}
+
+input#submit-presentation,
+input#submit-video,
+input#submit-session {
+	float: right;
+	margin-top: 0px;
+}
+
+p.submit {
+    margin-top: 0px;
+    padding: 0px !important;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.mps_loading {
+    overflow: hidden;
+}
+
+/* Anytime the body has the loading class, our
+   ajax_loading element will be visible */
+body.mps_loading .ajax_loading {
+    display: block;
+}
+
+.btnEditUser,
+.frmResetUserPassword
+{
+    float:left;
+}
+
+a.button.button-primary.btnEditUser.thickbox {
+    margin-right: 5px;
+}
+
+#frmAddPCUser {
+    padding: 10px;
+    border: gray;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.mps_sponsor_logo {
+    padding: 4px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.sponsor_container {
+    display: inline-block;
+    position: relative;
+}
+
+.sponsor_container input {
+    font-size: 0.5em;
+}
+
+.btnMoveSponsorUp {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.btnMoveSponsorDown {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.btnEditSponsor {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.btnDeleteSponsor {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 0.5em;
+}
+
+.slot_controls {
+    float: right;
+}
+
+#slot_management {
+    width: 100%;
+}
+
+.childseperator {
+    background-color: white;
+    padding: 1px !important;
+}
+
+.slots-table tr td {
+    padding:30px;
+}
+
+#slot_management tr {
+    line-height: 2em;
+}
+
+table.slots-table tr td ul li {
+    list-style-type: circle;
+    margin-left: 30px;
+}
+
+#slots_table tr td ul li {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+.sponsorcells {
+  padding: 5px !important;
+  border: 1px double grey !important;
+  font-weight: bold;
+}
+
+.sponsorcells hr {
+  background-color: grey !important;
+}
+
+.file-exists {
+    color: green !important;
+}
+
+.file-missing {
+    color: red !important;
+}
+
+.speaker-not-allowed {
+    background-color: #f2dede !important;
+}
+.speaker-allowed {
+    background-color: #dff0d8 !important;
+}
+
+#bio-draft-warning {
+    background-color: orange;
+    padding: 0.2em;
+    display: none;
+}
+
+#edit-session-table th,
+#edit-session-table td,
+#edit-session-table tr {
+    padding: 5px 10px !important;
+}
+
+.working-group > ul {
+    list-style: initial;
+    padding-left: 40px;
+    margin-top: 5px;
+}
+
+#collapse-wg-chair-bios,
+#wg-chairs-pages {
+    display: none;
+}

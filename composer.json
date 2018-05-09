@@ -1,0 +1,25 @@
+{
+	"authors": [
+		{
+			"name": "Oliver Payne",
+			"email": "opayne@ripe.net",
+			"homepage": "https://www.ripe.net",
+			"role": "Developer" 
+		}
+	],
+	"support": {
+		"email": "webmaster@ripe.net",
+		"issues": "https://jira.ripe.net/projects/WSMPS"
+	},
+    "require": {
+    	"php": "^7.0",
+        "nesbot/carbon": "^1.22",
+        "cogpowered/finediff": "^0.3.1",
+        "phpmailer/phpmailer": "^5.2",
+        "dompdf/dompdf": "^0.8.0",
+        "gregwar/captcha": "^1.1",
+        "kigkonsult/icalcreator": "^2.22",
+        "twig/twig": "^2.4",
+		"guzzlehttp/guzzle": "^6.3"
+    }
+}
