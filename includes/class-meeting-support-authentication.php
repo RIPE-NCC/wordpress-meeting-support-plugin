@@ -22,7 +22,6 @@
  */
 class Meeting_Support_Auth
 {
-
     public $user;
 
     public $auth_method;
@@ -35,9 +34,6 @@ class Meeting_Support_Auth
     {
         // Set auth method to local, this is overwritten in the crowd.inc.php file (if it exists)
         $this->auth_method = 'local';
-
-        // Load crowd config vars
-        include_once(plugin_dir_path(dirname(__FILE__)) . 'includes/crowd.inc.php');
 
         $this->user = $this->get_current_user();
     }
@@ -94,7 +90,7 @@ class Meeting_Support_Auth
 
     private function get_current_user_local()
     {
-        if (( isset($_SESSION['user']) && ( isset($_SESSION['user']['uuid']) ) )) {
+        if ((isset($_SESSION['user']) && (isset($_SESSION['user']['uuid'])))) {
             // Add a check to see if the session is still valid
             $user = $this->getUserByUUID($_SESSION['user']['uuid']);
             if (! $user) {
@@ -116,11 +112,10 @@ class Meeting_Support_Auth
             return false;
         }
         return $response['user'];
-
     }
 
-    private function ms_crowd_request($url, $method = 'GET', $data = []) {
-
+    private function ms_crowd_request($url, $method = 'GET', $data = [])
+    {
         $client_options = [
             'verify' => false,
             'base_uri' => $this->crowd_config['host'] . $this->crowd_config['path'],
@@ -170,7 +165,7 @@ class Meeting_Support_Auth
 
     private function ms_crowd_get_attributes($username)
     {
-      // Get attributes for the specified user name
+        // Get attributes for the specified user name
         $cache = get_transient('ms_crowd_attrs_'.substr($username, 0, 30));
         if ($cache !== false) { //false if no cache
             return $cache;
@@ -308,7 +303,6 @@ class Meeting_Support_Auth
 
     public function getCrowdUserByUUID($uuid)
     {
-
         $user = $this->ms_crowd_get_details_by_uuid($uuid);
 
         // Make sure it's a real user
@@ -342,7 +336,6 @@ class Meeting_Support_Auth
 
     public function getUserByUUID($uuid)
     {
-
         global $wpdb;
 
         $user = $wpdb->get_row(
@@ -361,7 +354,6 @@ class Meeting_Support_Auth
 
     public function getLocalUserByEmail($email)
     {
-
         global $wpdb;
 
         $email = sanitize_email($email);
